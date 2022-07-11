@@ -1,0 +1,51 @@
+// let data={
+//     name:'Abhishek',
+//     class:12,
+//     address:'KTM'
+// }
+// const getname(data) => data.name; 
+
+// // function getName(data){
+// //     return data["name"];
+// // }
+// console.log(getName(data.name))
+
+// let arr=['1','2','3'];
+// function double(arr){
+//     var mat=[];
+    
+//     var el=0;
+//     for(let i=0;i<3;i++){
+//         mat.push(arr[i]*2);
+//     }
+//     return(mat)
+// }
+
+
+// const double=(arr)=>{
+//     var mat=[];
+    
+//     var el=0;
+//     for(let i=0;i<3;i++){
+//         mat.push(arr[i]*2);
+//     }
+//     return(mat)
+// }
+
+// var arr=[1,2,3];
+// mat=double(arr);
+// console.log(mat);
+
+// const doubleletter=a.map(i=>)
+a=[1,2,3];
+// a.map((val,index)=>{
+//     console.log(val,index);
+// })
+//const doubleletter=a.map((i,index)=>i*2);
+//console.log(doubleletter);
+
+bem block element modifier
+
+header__container
+header__title
+header__about

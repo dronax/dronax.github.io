@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap%27);
+.header__container{
+    background-color:burlywood;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat",sans-serif;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: thistle;
+    
+}
+.header__name{
+    padding: 30px;
+    cursor: pointer;
+    background-color: skyblue;
+    border-radius: 8px;
+}
+.header__side__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+.header__about,
+.header__contact{
+    margin: 0px 15px;
+    cursor: pointer;
+    padding: 10px 10px;
+    background-color: aqua;
+    border-radius: 8px;
+}
+.header__download{
+    margin: 0px 15px;
+    padding: 10px 10px;
+    background-color: black;
+    border-radius: 8px;
+    color:green;
+    cursor: pointer;
+}
+.hero__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-image:url("https://res.cloudinary.com/sagacity/image/upload/c_crop,h_873,w_1312,x_0,y_152/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1200/Maxomatic_Portland_Monthly_-_DB_Cooper-FIN__1__ol7d6n.jpg");
+
+
+}
+
+
+.photo__container{
+    clip-path: circle();
+    cursor:pointer;
+    
+}
+.text__container{
+    
+    color:floralwhite;
+    font-size:70px;
+}
+.image__size{
+    height: 500px;
+    width: 500px;
+}
+.about__section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: thistle;
+    
+
+}
+.Education,.Experience,.Earnings{
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+    background-color:wheat;
+    border-radius: 10px;
+    width: 25em;
+    height: 20em;
+    
+}
+.ed_pic_size{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    margin-left: 100px;
+    clip-path: circle();
+    
+}
+.experience_pic{
+    
+    justify-content: center;
+    margin-left: 100px;
+    clip-path: circle();
+    height: 200px;
+    width: 200px;
+    
+}
+.earning_logo{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    margin-left: 100px;
+    clip-path: circle();
+}
+.ed_text,.ex_text,.earn_text{
+    margin-left: 135px;
+    font-size: larger;
+    font-weight:bolder;
+    font-size: 25px;
+    
+    
+}
+
+.ed_description{
+    margin-left: -90px;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-right: 20px;
+    
+}
+.exp_description{
+    margin-left: -45px;
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+.earning_description{
+    align-items: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.about{
+    background-color: thistle;
+    font-size: 100px;
+    padding-left: 400px;
+    font-style: oblique;
+}
+.contact{
+    display: flex;
+    font-size: 70px;
+}
+.contact_div{
+    margin-left: -400px;
+    margin-top: 100px;
+}
+.contact_forms{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 20px;
+    
+}
+.container_name_email{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.box{
+    padding: 10px 10px;
+    
+}
+.box2{
+    padding: 10px 10px;
+    height: 100px;
+    border-radius: 10px;
+}
+.submit{
+   margin-left: 800px;
+   margin-bottom: 50px;
+   margin-top: -80px;
+   height: 50px;
+   width: 50px;
+   border-radius: 5px;
+}
+.con_name,.con_email{
+    background-color:wheat;
+    height: 30px;
+    width: 200px;
+}
+.con_message{
+    background-color: beige;
+    height: 210px;
+    width: 490px;
+}
+/* .submit{
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+} */
