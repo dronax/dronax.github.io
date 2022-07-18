@@ -43,7 +43,7 @@ document.querySelector(".header__contact").addEventListener("click", () => {
 
 //download click
 document.querySelector(".header__download").addEventListener("click", () => {
-  window.open("./RajadShakyaCV.pdf", "_blank");
+  window.open("./Abhishekcv.pdf", "_blank");
 });
 
 //form handle
