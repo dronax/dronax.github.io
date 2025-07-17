@@ -1,240 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-
-html {
-  scroll-behavior: smooth;
+body {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  background-color: #ffffff;
+  color: #333;
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  line-height: 1.7;
+}
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+h3 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+code {
+  background: #f6f8fa;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+ul {
+  padding-left: 1.5rem;
 }
 
-* {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Montserrat", sans-serif;
-}
-
-/* header section */
-.header__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 30px;
-  height: 6vh;
-
-  background-color: #dedede;
-  position: fixed;
-  top: 0;
-  width: 98%;
-}
-
-.header__name {
-  cursor: pointer;
-}
-
-.header__side__buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 10px;
-}
-
-.header__about,
-.header__contact {
-  margin: 0px 15px;
-  cursor: pointer;
-}
-
-.header__download {
-  margin: 0px 15px;
-  padding: 6px 10px;
-  background-color: black;
-  border-radius: 8px;
-
-  color: white;
-  cursor: pointer;
-}
-
-/* hero section */
-.hero__container {
-  background-image: url("https://st2.depositphotos.com/1076754/5300/v/380/depositphotos_53008145-stock-illustration-black-and-white-retro-showroom.jpg?forcejpeg=true");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  height: 100vh;
-  padding: 10px 30px;
-}
-
-.hero__text__container {
-  font-size: 80px;
-}
-
-.hero__picture__container {
-  width: 390px;
-  height: 390px;
-  border-radius: 50%;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.2s;
-  box-shadow: 1px 2px 17px 9px rgba(130, 125, 125, 0.76);
-
-  margin-right: 100px;
-}
-
-.hero__picture__container:hover {
-  transform: scale(1.15);
-}
-
-.hero__picture {
-  width: 380px;
-  height: 380px;
-  border-radius: 190px;
-}
-
-/* about section */
-.about__container {
-  height: 100vh;
-  padding: 10px 30px;
-}
-
-.about__header {
-  margin-top: 80px;
-  margin-bottom: 90px;
-  font-size: 50px;
-}
-
-.about__innercontainer {
-  height: 50vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.about__education,
-.about__hobby,
-.about__skill {
-  width: 20vw;
-  background-color: #efefef;
-  height: 100%;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 1px 2px 7px 5px rgba(130, 125, 125, 0.2);
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.about__icon {
-  width: 100px;
-  height: 100px;
-}
-
-.about__item__title {
-  font-size: 40px;
-  margin: 25px 0px;
-}
-
-.about__item__text {
-  font-size: 25px;
-  text-align: center;
-}
-
-/* contact section */
-.contact__container {
-  height: 85vh;
-  padding: 10px 30px;
-}
-.contact__title {
-  margin-top: 80px;
-  margin-bottom: 0px;
-  font-size: 50px;
-}
-
-.contact__inner__form {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.contact__form__container {
-  width: 40%;
-}
-
-.contact__input__container {
-  display: flex;
-  flex-direction: column;
-  width: 45%;
-}
-
-.contact__input__container2 {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact__label {
-  font-size: 25px;
-  margin-bottom: 10px;
-}
-
-.contact__name__email {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-.contact__name,
-.contact__email {
-  padding: 15px 20px;
-  background-color: #efefef;
-  border: none;
-  border-radius: 5px;
-}
-
-.contact__message {
-  background-color: #efefef;
-  border: none;
-  border-radius: 5px;
-  height: 150px;
-  padding: 15px 20px;
-}
-
-.contact__submit {
-  border: none;
-  border-radius: 15px;
-  background-color: black;
-  color: white;
-  padding: 15px 25px;
-  font-size: 18px;
-
-  margin-top: 20px;
-  cursor: pointer;
-}
-
-/* footer section */
-.footer__container {
-  background-color: black;
-  color: white;
-  height: 10vh;
-  padding: 0px 30px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer__icon {
-  width: 30px;
-  height: 30px;
-  margin-left: 7px;
-  cursor: pointer;
-}
-.hero__text__dynamic{
-    color: teal;
-
-}
